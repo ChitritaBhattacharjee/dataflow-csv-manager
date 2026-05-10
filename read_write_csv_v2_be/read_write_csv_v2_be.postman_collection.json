@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "39adfac0-c7ce-48d2-8ecc-e3b905b9dc07",
+		"name": "read_write_csv_v2_be",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "3446538"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/v1/students/get_student_by_id/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/api/v1/students/get_student_by_id/4"
+			},
+			"response": []
+		},
+		{
+			"name": "save_student - edit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 12,\r\n    \"firstName\": \"Barun\",\r\n    \"lastName\": \"Dutta\",\r\n    \"age\": 28\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/v1/students/save_student"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/v1/students/delete_student",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": "localhost:8080/api/v1/students/delete_student/4"
+			},
+			"response": []
+		},
+		{
+			"name": "save_student - save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Kiran\",\r\n    \"lastName\": \"Sarkar\",\r\n    \"age\": 32\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/v1/students/save_student"
+			},
+			"response": []
+		}
+	]
+}

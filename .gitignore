@@ -1,0 +1,64 @@
+# =========================
+# FRONTEND (React/Vite)
+# =========================
+read_write_csv_v2_fe/node_modules/
+read_write_csv_v2_fe/dist/
+read_write_csv_v2_fe/build/
+read_write_csv_v2_fe/.env
+
+# =========================
+# BACKEND (Spring Boot / Maven)
+# =========================
+read_write_csv_v2_be/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# STS / Eclipse
+# =========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# =========================
+# IntelliJ
+# =========================
+.idea
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
